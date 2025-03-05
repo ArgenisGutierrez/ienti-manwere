@@ -1,0 +1,268 @@
+/***
+======================================================
+Itsoft footer Area Css
+======================================================***/
+.footer-middle {
+  background: url(assets/images/resource/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 0 0px;
+}
+
+.row.footer-bg {
+  padding: 85px 0 100px;
+  position: relative;
+}
+
+/*widget title*/
+h4.widget-title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+h4.widget-title:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 42px;
+  background: #ff3c00;
+  width: 50px;
+  height: 2px;
+  transition: .5s;
+}
+
+.company-info-desc p {
+  color: #fff;
+  padding: 25px 0 14px;
+}
+
+/*social icon*/
+.follow-company-icon a {
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  background: #187DFF;
+  border-radius: 50px;
+  display: inline-block;
+  color: #fff;
+  margin-right: 8px;
+  position: relative;
+  z-index: 1;
+}
+
+.follow-company-icon a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #11112E;
+  border-radius: 50px;
+  transform: scale(0);
+  transition: .5s;
+}
+
+a.social-icon-color1 {
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  background: #219ff9;
+  border-radius: 50px;
+  display: inline-block;
+  color: #fff;
+  margin-right: 8px;
+}
+
+a.social-icon-color2 {
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  background: linear-gradient(135deg, #b618c1 0%, #f3593d 100%);
+  border-radius: 50px;
+  display: inline-block;
+  color: #fff;
+  margin-right: 8px;
+}
+
+a.social-icon-color3 {
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  background: #F70102;
+  border-radius: 50px;
+  display: inline-block;
+  color: #fff;
+  ;
+  margin-right: 8px;
+}
+
+/*footer menu*/
+.menu-quick-link-content {
+  padding: 10px 0 0;
+}
+
+ul.footer-menu li {
+  display: block;
+  list-style: none;
+  padding: 16px 0 0;
+}
+
+ul.footer-menu li a {
+  font-family: 'Fira Sans';
+  color: #fff;
+  transition: .5s;
+}
+
+/*recent post image*/
+.recent-post-item.active {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14901960784313725);
+  margin-bottom: 25px;
+  padding: 32px 0 30px;
+}
+
+.recent-post-image {
+  float: left;
+  margin-right: 20px;
+}
+
+.recent-post-text h6 {
+  margin: 0;
+}
+
+.recent-post-text a {
+  color: #fff;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  transition: .5s;
+  line-height: 24px;
+  font-size: 16px;
+}
+
+.recent-post-text span {
+  font-size: 14px;
+  color: #8B888F;
+  padding: 2px 0 0;
+  display: inline-block;
+}
+
+/*footer all hover*/
+ul.footer-menu li a:hover {
+  color: #FF3C00;
+}
+
+.follow-company-icon a:hover:before {
+  transform: scale(1);
+}
+
+.recent-post-text a:hover {
+  color: #FF3C00;
+}
+
+/**footer bottom area**/
+.footer-bottom-area {
+  background: #11112E;
+  height: 80px;
+}
+
+a.logo_thumb img {
+  width: 28%;
+}
+
+.footer-bottom-content {
+  text-align: right;
+  padding: 10px 0 0;
+}
+
+.footer-bottom-content-copy p {
+  color: #FFf;
+  margin: 0 0 5px;
+}
+
+.footer-bottom-content-copy span {
+  color: #FF3C00;
+}
+
+/**footer shape**/
+.footer-thumb img {
+  position: absolute;
+  right: -225px;
+  top: 106px;
+  animation: moveLeftBounce 4s linear infinite;
+}
+
+.footer-thumb1.bounce-animate2 {
+  position: absolute;
+  left: -324px;
+  top: -198px;
+}
+
+/**footer area style two**/
+.style-two.footer-middle {
+  background: url(assets/images/resource/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 0 0px;
+}
+
+.style-two .footer-bottom-area {
+  background: transparent;
+  height: 80px;
+  border-top: 1px solid #626065;
+}
+
+.contact-form-footer {
+  padding: 48px 0 0;
+}
+
+.contact-form-footer .subscribe_form input {
+  font-size: 14px;
+  height: 57px;
+  padding: 5px 14px;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background: #373644;
+  border: 0;
+  margin-bottom: 14px;
+  border-radius: 5px;
+}
+
+.contact-form-footer .subscribe_form button {
+  padding: 10px 20px;
+  transition: all 0.4s ease 0s;
+  border: medium none;
+  border-radius: 0px 5px 5px 0px;
+  background: #ff3c00;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 136px;
+  display: inline-block;
+}
+
+.recent-post-thumb1 {
+  float: left;
+  margin-right: 8px;
+  margin-top: 15px;
+}
+
+.recent-post-thumb {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+/*style upper*/
+.upper.style-two.footer-middle {
+  padding: 0 0 0px;
+}

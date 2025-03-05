@@ -1,0 +1,489 @@
+/***
+======================================================
+Itsoft case study area css
+======================================================***/
+.case-study-area {
+  background: url(assets/images/resource/service-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 92px 0 95px;
+}
+
+.row.case-study-bg {
+  position: relative;
+  z-index: 1;
+}
+
+.case-study-single-box {
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+/*case thumb*/
+.case-study-thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.case-study-thumb:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, rgba(3, 4, 34, 0.902) 0%, rgba(3, 4, 34, 0.902) 24%,
+      rgba(3, 3, 33, 0) 62%, rgba(3, 3, 33, 0) 100%);
+  border-radius: 3px;
+}
+
+.case-study-thumb img {
+  width: 100%;
+}
+
+/*case content*/
+.case-study-content {
+  position: absolute;
+  bottom: -15px;
+  left: 30px;
+  right: 0;
+  margin: auto;
+  transition: .5s;
+}
+
+.case-study-title h6 {
+  font-size: 17px;
+  color: #ff3c00;
+  font-weight: 500;
+  padding: 0 0 0 32px;
+  position: relative;
+  transition: .5s;
+}
+
+.case-study-title h6:before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  left: 0;
+  top: 10px;
+  width: 22px;
+  border: 1px solid #ff3c00;
+}
+
+.case-study-title h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.case-study-title h3 a {
+  color: #fff;
+  font-weight: 600;
+}
+
+/*case button*/
+.case-button a {
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.case-button a i {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+/*case all hover*/
+.case-study-thumb:hover .case-study-content {
+  bottom: 28px;
+}
+
+.case-study-thumb:hover .case-button a {
+  opacity: 1;
+}
+
+.case-study-thumb:hover .case-study-title h6 {
+  color: #fff;
+  ;
+}
+
+.case-study-thumb:hover .case-study-title h6:before {
+  border: 1px solid #fff;
+}
+
+.case-study-thumb:hover:before {
+  background-image: linear-gradient(0deg, rgba(255, 59, 0, 0.902) 0%, rgba(255, 59, 0, 0.902) 24%,
+      rgba(255, 59, 0, 0) 62%, rgba(255, 59, 0, 0) 100%);
+}
+
+/*case study shape*/
+.case-shape-thumb {
+  position: absolute;
+  right: -255px;
+  top: 55px;
+}
+
+.case-shape-thumb1 {
+  position: absolute;
+  left: -280px;
+  top: -96px;
+}
+
+/*owl carousel*/
+.owl-dots {
+  text-align: center;
+  padding: 18px 0 0;
+}
+
+.owl-dot {
+  width: 19px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.30196078431372547);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.owl-dot.active {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #ff3c00;
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+
+/**case study style two**/
+.style-two.case-study-area {
+  background: url(assets/images/resource/why-choose-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 100px;
+}
+
+p.study-text1 {
+  opacity: inherit;
+  padding: 20px 0 0;
+  margin-bottom: 9px;
+}
+
+.style-two.case-study-area .dreamit-icon-list ul li i {
+  width: inherit;
+  height: inherit;
+  line-height: inherit;
+  border-radius: 0;
+  background-color: inherit;
+  display: inline-block;
+  color: #ff3c00;
+  font-size: 22px;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+}
+
+.style-two.case-study-area .dreamit-icon-list ul li span {
+  color: #232323;
+  font-weight: 400;
+  font-family: "Fira Sans";
+}
+
+/*case study thumb*/
+.case-study-thumb1 {
+  position: relative;
+  z-index: 1;
+  left: 120px;
+}
+
+/*case study button*/
+.study-button a {
+  padding: 14px 38px;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  color: #fff;
+  background: #FF3B00;
+  display: inline-block;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 38px;
+}
+
+.study-button a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background: #fff;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.study-button a i {
+  font-size: 19px;
+  color: #fff;
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+/*case study all hover*/
+.study-button a:hover {
+  color: #FF3B00;
+}
+
+.study-button a:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.study-button a:hover i {
+  color: #fff;
+}
+
+/*case study shape*/
+.case-study-shape-thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.case-study-shape-thumb2 {
+  position: absolute;
+  top: -56px;
+  left: -43px;
+}
+
+.case-study-shape-thumb3 {
+  position: absolute;
+  left: -192px;
+  bottom: -30px;
+}
+
+.case-study-shape-thumb4 {
+  position: absolute;
+  right: 8px;
+  bottom: -18px;
+  z-index: -1;
+  animation: moveLeftBounce 3s linear infinite;
+}
+
+/**Case study are style three**/
+.style-three.case-study-area {
+  background: #fff;
+  padding: 95px 0 70px;
+}
+
+/* Portfolio Nav */
+.portfolio_nav {
+  margin-bottom: 40px;
+}
+
+.portfolio_menu ul {
+  text-align: center;
+  list-style: none;
+}
+
+.portfolio_nav ul li {
+  background: #F6F5F5;
+  font-size: 15px;
+  font-family: 'Fira Sans';
+  transition: all 0.5s ease 0s;
+  cursor: pointer;
+  padding: 6px 25px;
+  font-weight: 500;
+  position: relative;
+  margin: 0 3px;
+  margin-bottom: 7px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.portfolio_menu ul li a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s;
+}
+
+.portfolio_menu ul li a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 24px;
+  height: 2px;
+  width: 0%;
+  background: #fff;
+  transition: .5s;
+}
+
+.portfolio_nav ul li:hover,
+.portfolio_nav ul li.current_menu_item {
+  color: #fff;
+  background: #FF3C00;
+}
+
+/*case study thumb*/
+.case-study-thumb2 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.case-study-thumb2::before {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.30);
+  top: 0;
+  content: "";
+  opacity: 0;
+  transition: .5s;
+}
+
+.case-study-thumb2 img {
+  width: 100%;
+}
+
+.case-study-title h3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #fff;
+}
+
+/*case study content*/
+.style-three .case-study-content {
+  position: absolute;
+  bottom: -120px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: .5s;
+  opacity: 0;
+}
+
+.case-study-content-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.case-study-content-inner:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  background: url(assets/images/resource/port.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 160px;
+}
+
+.style-three .case-study-title {
+  padding: 0 0 27px 30px;
+}
+
+.style-three .case-study-title h3 {
+  line-height: 26px;
+}
+
+.style-three .case-study-title h3 a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.style-three .case-study-title h6 {
+  color: #fff;
+}
+
+.style-three .case-study-title h6:before {
+  border: 1px solid #fff;
+}
+
+/*case study icon*/
+.style-three .style-two.video-icon a {
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #ff3c00;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.single_portfolio_icon {
+  position: absolute;
+  right: 168px;
+  top: 20px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.single_portfolio_icon a i {
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #ff3c00;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*case all hover*/
+.case-study-thumb2:hover .case-study-content {
+  bottom: 0px;
+  opacity: 1;
+}
+
+.case-study-thumb2:hover .style-two.video-icon {
+  top: 13px;
+  opacity: 1;
+}
+
+.case-study-thumb2:hover .single_portfolio_icon {
+  right: 67px;
+  opacity: 1;
+}
+
+.case-study-thumb2:hover:before {
+  opacity: 1;
+}
+
+/*port shape thumb*/
+.port-shape-thumb {
+  position: absolute;
+  left: -149px;
+}
+
+.port-shape-thumb2 {
+  position: absolute;
+  right: -149px;
+}
+
+.port-shape-thumb2 {
+  position: absolute;
+  top: -147px;
+  right: -240px;
+  z-index: 11;
+}

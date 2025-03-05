@@ -1,0 +1,81 @@
+/***
+==================================================
+<--Start call do section Css-->
+==================================================***/
+.call-do-action-section {
+  background: linear-gradient(rgba(17, 26, 58, 0.75), rgba(17, 26, 58, 0.75)), transparent url(assets/images/resource/cda1.jpg) no-repeat center/cover;
+  padding: 100px 0 150px;
+}
+
+.call-do-action-content h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.call-do-action-content p {
+  width: 35%;
+  margin: auto;
+  padding: 15px 0 0;
+}
+
+/*button*/
+.btn-common a {
+  color: #fff;
+  font-size: 17px;
+  background: #FF3C00;
+  padding: 14px 31px;
+  border: 1px solid #FF3C00;
+  border-radius: 5px;
+  transition: .5s;
+  text-transform: capitalize;
+}
+
+.btn-common a:hover {
+  background: #fff;
+  color: #FF3C00;
+}
+
+.video-icon {
+  display: inline-block;
+}
+
+.video-icon-cda a {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 100%;
+  color: #FF3C00;
+  background: #fff;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  -webkit-animation: hassan 1s linear infinite;
+  animation: hassan 1.5s linear infinite;
+  -webkit-transition: .5s;
+  font-size: 28px;
+  z-index: 1;
+}
+
+@-webkit-keyframes hassan {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 5px rgba(255, 255, 255, 0.4)
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 50px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 40px rgba(255, 255, 255, 0)
+  }
+}
+
+@keyframes hassan {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 5px rgba(255, 255, 255, 0.4)
+  }
+
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 40px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4), 0 0 0 40px rgba(255, 255, 255, 0)
+  }
+}

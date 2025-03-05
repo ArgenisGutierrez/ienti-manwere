@@ -1,0 +1,25 @@
+/***
+==================================================
+<--Start brand section Css-->
+==================================================***/
+.brand-section {
+  padding: 50px 0 50px;
+}
+
+.single-brand img {
+  width: 100%;
+}
+
+/*upper*/
+.upper.brand-section {
+  padding: 20px 0 50px;
+}
+
+/*style two*/
+.upper1.brand-section {
+  padding: 20px 0 30px;
+  background: url(assets/images/resource/counter-bg23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

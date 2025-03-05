@@ -1,0 +1,98 @@
+/***
+======================================================
+<--Start Itsoft Brand Area Cs-->
+======================================================***/
+.dreamits-top-title h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding: 0 0 44px;
+}
+
+.dreamits-top-title h3:before {
+  position: absolute;
+  content: "";
+  left: -15px;
+  top: 9px;
+  height: 2px;
+  width: 380px;
+  background-color: rgba(35, 35, 35, 0.10196078431372549);
+}
+
+.dreamits-top-title h3:after {
+  position: absolute;
+  content: "";
+  right: -15px;
+  top: 9px;
+  height: 2px;
+  width: 380px;
+  background-color: rgba(35, 35, 35, 0.10196078431372549);
+}
+
+/***
+======================================================
+Itsoft Brand Area Css
+======================================================***/
+.skill-area {
+  background: url(assets/images/resource/skill-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 100px;
+}
+
+p.slill-text {
+  padding: 12px 0 0;
+  color: #fff;
+  opacity: 67%;
+}
+
+/*skill right thumb*/
+.slill-single-thumb {
+  position: relative;
+  z-index: 1;
+}
+
+.skill-thumb-content {
+  position: absolute;
+  bottom: 0;
+  left: 51px;
+  background-color: rgba(255, 60, 0, 0.74556944);
+  padding: 26px 35px 28px 30px;
+  border-radius: 0px 319px 0 0;
+}
+
+.skill-title h3 {
+  font-size: 60px;
+  color: #fff;
+  display: inline-block;
+}
+
+.skill-title span {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Fira Sans';
+  color: #fff;
+}
+
+.skill-title h5 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 6px;
+}
+
+/*skill thumb*/
+.skill-shape img {
+  position: absolute;
+  left: 240px;
+  bottom: 120px;
+}
+
+.skill-shape1.bounce-animate2 {
+  position: absolute;
+  right: -67%;
+  top: -45%;
+}

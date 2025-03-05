@@ -1,0 +1,605 @@
+/**
+======================================================
+Itsoft service Area css
+======================================================**/
+.service-area {
+  background: url(assets/images/resource/feature-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 85px 0 70px;
+}
+
+/*service box*/
+.dreamit-service-box {
+  padding: 0px 25px 30px;
+  background-color: #fff;
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.dreamit-service-box:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  background: url(assets/images/resource/box-bg.png);
+  transition: .5s;
+  opacity: 0;
+  z-index: -1;
+}
+
+.em-service-title h2 {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 55px 0 42px;
+  line-height: 1.4;
+  position: relative;
+  z-index: 1;
+  transition: .5s;
+}
+
+.em-service-title h2:before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 22px;
+  margin: auto;
+  width: 40px;
+  height: 2px;
+  background: #ff3c00;
+}
+
+.em-service-icon {
+  position: absolute;
+  top: -42px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  transition: .5s;
+}
+
+.em-service-icon img {
+  transition: .5s;
+}
+
+.service-number h1 {
+  font-size: 100px;
+  opacity: 10%;
+  position: absolute;
+  top: 115px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.em-service-text p {
+  transition: .5s;
+}
+
+/*itsoft box button*/
+.service-button a {
+  padding: 8px 18px 8px 24px;
+  font-size: 15px;
+  font-family: 'Fira Sans';
+  border-radius: 22px;
+  background-color: #ffffff;
+  color: #232323;
+  border: 1px solid rgba(35, 35, 35, 0.1);
+  display: inline-block;
+  margin-top: 11px;
+  position: relative;
+  z-index: 1;
+  transition: .5s;
+}
+
+.service-button a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FF3B00;
+  border-radius: 30px;
+  transform: scale(0);
+  transition: .5s;
+}
+
+.service-button a i {
+  font-size: 18px;
+  color: #ff3c00;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  transition: .5s;
+}
+
+/*itsoft button*/
+.itsoft-button a {
+  padding: 10px 14px 15px 42px;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  color: #fff;
+  background: #FF3B00;
+  display: inline-block;
+  border-radius: 30px;
+  border: 1px solid #FF3B00;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.itsoft-button a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  background: #fff;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.itsoft-button a i {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  line-height: 32px;
+  border-radius: 25px;
+  text-align: center;
+  background: #fff;
+  color: #FF3B00;
+  display: inline-block;
+  margin-left: 14px;
+  position: relative;
+  top: 3px;
+  transition: .5s;
+}
+
+.itsoft-button a:hover {
+  color: #FF3B00;
+}
+
+.itsoft-button a:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.itsoft-button a:hover i {
+  background: #FF3B00;
+  color: #fff;
+}
+
+/*all hover*/
+.dreamit-service-box:hover .em-service-title h2,
+.dreamit-service-box:hover .em-service-text p {
+  color: #fff;
+}
+
+.dreamit-service-box:hover .em-service-text p {
+  color: #fff;
+}
+
+.dreamit-service-box:hover .em-service-icon img {
+  filter: brightness(0) invert(1);
+}
+
+.dreamit-service-box:hover .em-service-icon {
+  background: #ff3c00;
+}
+
+.dreamit-service-box:hover .service-button a:before {
+  transform: scale(1);
+}
+
+.dreamit-service-box:hover .service-button a {
+  color: #fff;
+  border: 1px solid #FF3B00;
+}
+
+.dreamit-service-box:hover .service-button a i {
+  color: #fff;
+}
+
+.dreamit-service-box:hover:before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+/** <--Start Service Style Two--> **/
+.style-two.service-area {
+  background: #fff;
+  padding: 75px 0 7px;
+}
+
+.row.serivce-bg {
+  position: relative;
+  z-index: 1;
+  top: -95px;
+}
+
+.style-two .dreamit-service-box {
+  padding: 45px 19px 49px 40px;
+  border: 0;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-top: 5px solid #FF3D00;
+  transition: .5s;
+  background: #fff;
+  box-shadow: 0px 5px 30px 0px rgb(137 139 143 / 10%);
+}
+
+.style-two .dreamit-service-box:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  background: url(assets/images/resource/box-bg2.png);
+  transition: .5s;
+  opacity: 0;
+  z-index: -1;
+}
+
+.service-box-inner {
+  transition: .4s;
+}
+
+.style-two .em-service-title h3 {
+  margin: 11px 0 14px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.em-service-icon1 {
+  font-size: 35px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 27px;
+}
+
+.em-service-icon1:after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 14px;
+  height: 74px;
+  width: 74px;
+  background: #f5f5f5;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.style-two .em-service-text p {
+  margin: 0 0 35px;
+  line-height: 25px;
+}
+
+/*serivece ber*/
+.service-bar {
+  background: #ff3c00;
+  height: 3px;
+  width: 64px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.service-bar:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0;
+  height: 3px;
+  width: 10px;
+  border-radius: 50%;
+  background: #fff;
+  border-radius: 10%;
+  -webkit-animation: MOVIE-BG 4s linear infinite alternate;
+}
+
+/*service back title*/
+.dreamit-service-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 44%;
+  width: 100%;
+  text-align: left;
+  background: #131323;
+  padding: 32px 20px 0 46px;
+  transform: perspective(500px)rotateX(-90deg);
+  opacity: 1;
+  transform-origin: 50% 0%;
+  transition: .5s;
+}
+
+.serivce-back-title h3 {
+  color: #ff3c00;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Fira Sans';
+  margin: 0 0 0;
+  position: relative;
+  left: 40px;
+}
+
+.serivce-back-title h3:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -40px;
+  height: 2px;
+  width: 35px;
+  background: #ff3c00;
+}
+
+.serivce-back-title h2 {
+  margin: 11px 0 14px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.serivce-back-icon a {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 74px;
+  margin: auto;
+  height: 58px;
+  width: 58px;
+  background: #ff3b00;
+  line-height: 58px;
+  border-radius: 100%;
+  left: 0;
+  bottom: -73px;
+  font-size: 24px;
+  color: #fff;
+}
+
+/*service all hover*/
+.style-two .dreamit-service-box:hover .service-box-inner {
+  opacity: 0;
+}
+
+.style-two .dreamit-service-box:hover .dreamit-service-back {
+  transform: perspective(500px)rotateX(0deg);
+}
+
+.style-two .dreamit-service-box:hover .service-content-back {
+  opacity: 0;
+}
+
+.style-two .dreamit-service-box:hover:before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.style-two .dreamit-service-box:hover .em-service-icon1 img {
+  opacity: 0;
+}
+
+.style-two .dreamit-service-box:hover .em-service-icon1:after {
+  opacity: 0;
+}
+
+/*style two upper*/
+.upper .row.serivce-bg {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  margin-top: -130px;
+}
+
+/**Service style three**/
+.style-three.service-area {
+  background: url(assets/images/resource/service-bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 95px 0 84px;
+  position: relative;
+  z-index: 1;
+}
+
+.style-three.service-area:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 19, 35, 0.9);
+}
+
+.style-three .dreamit-service-box {
+  padding: 36px 15px 30px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 3px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.style-three .dreamit-service-box:before {
+  background: url(assets/images/resource/box-bg3.png);
+  border-radius: 3px;
+}
+
+.style-three .em-service-icon1.upper {
+  margin-bottom: 27px;
+}
+
+.style-three .em-service-icon1 {
+  font-size: 35px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.style-three .em-service-icon1:after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 13px;
+  height: 58px;
+  width: 58px;
+  background: #f6f5f5;
+  border-radius: 100%;
+  z-index: -1;
+  transition: .5s;
+}
+
+.em-service-icon1 img {
+  transition: .5s;
+}
+
+.style-three .em-service-title h3 {
+  margin: 10px 0 20px;
+  font-size: 22px;
+  font-weight: 500;
+  transition: .5s;
+}
+
+/*service bar*/
+.style-three .service-bar {
+  background: #ff3c00;
+  height: 2px;
+  width: 64px;
+  position: relative;
+  border-radius: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto 19px;
+  transition: .5s;
+}
+
+.style-three .service-bar:before {
+  height: 2px;
+  transition: .5s;
+}
+
+/*serivce button*/
+.style-three .service-button a {
+  padding: 10px 22px;
+  font-size: 15px;
+  font-family: 'Fira Sans';
+  border-radius: 30px;
+  background-color: #f6f5f5;
+  border: 0;
+}
+
+/*service all hover*/
+.style-three .dreamit-service-box:hover .em-service-icon1 img {
+  filter: brightness(0) invert(1);
+}
+
+.style-three .dreamit-service-box:hover .service-bar {
+  background: #fff;
+}
+
+.style-three .dreamit-service-box:hover .em-service-icon1:after {
+  background: #FF784E;
+}
+
+.style-three .dreamit-service-box:hover .service-bar:before {
+  background: #ff3c00;
+}
+
+.style-three .dreamit-service-box:hover .em-service-title h3 {
+  color: #fff;
+}
+
+.style-three .dreamit-service-box:hover .service-button a {
+  color: #fff;
+  border: 0;
+}
+
+/*service shape */
+.service-shape {
+  position: absolute;
+  right: 0;
+  top: 0;
+  animation: moveLeftBounce 3s linear infinite;
+  z-index: -1;
+}
+
+.service-shape1 {
+  position: absolute;
+  left: 142px;
+  bottom: -190px;
+}
+
+/*service bottom text*/
+.service-bottom-text {
+  text-align: center;
+  padding: 50px 0 0;
+}
+
+.service-bottom-text p {
+  font-size: 18px;
+  color: #F4F4F4;
+}
+
+.service-bottom-text p a {
+  padding: 6px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #FF3C00;
+  font-family: 'Fira Sans';
+  color: #fff;
+  background: #FF3C00;
+  border-radius: 30px;
+  display: inline-block;
+  margin-left: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.service-bottom-text p a:before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  background: #10102E;
+  transform: scale(0);
+  transition: .5s;
+}
+
+.service-bottom-text p a:hover:before {
+  transform: scale(1);
+}

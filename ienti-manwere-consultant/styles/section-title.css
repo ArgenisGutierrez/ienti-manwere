@@ -1,0 +1,67 @@
+/**
+======================================================
+Itsoft section title css
+======================================================**/
+.itsoft-section-title h2 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.itsoft-section-title span {
+  color: #FF3C00;
+}
+
+.itsoft-section-title p {
+  opacity: 70%;
+  padding: 13px 0 0;
+}
+
+/*style two*/
+.itsoft-section-title h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ff3c00;
+  margin: 0 0 16px;
+  position: relative;
+  left: 53px;
+}
+
+.itsoft-section-title h5:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -53px;
+  height: 2px;
+  width: 41px;
+  background: #FF3C00;
+}
+
+/*center before after*/
+.upper.itsoft-section-title h5 {
+  left: 0px;
+}
+
+.upper.itsoft-section-title h5:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: -165px;
+  right: 0;
+  margin: auto;
+  height: 2px;
+  width: 41px;
+  background: #FF3C00;
+}
+
+.upper.itsoft-section-title h5:after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 0px;
+  right: -165px;
+  margin: auto;
+  height: 2px;
+  width: 41px;
+  background: #FF3C00;
+}

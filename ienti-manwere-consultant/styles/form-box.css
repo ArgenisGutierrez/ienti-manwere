@@ -1,0 +1,120 @@
+/***
+==================================================
+<--Start form box Css-->
+==================================================***/
+.contract-form-bg {
+  padding: 15px 35px 40px;
+  background: #fff;
+  border-radius: 3px;
+  width: 470px;
+  position: relative;
+  z-index: 1;
+  margin-top: -140px;
+  left: 100px;
+}
+
+.contract-form-bg:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 147px;
+  width: 100%;
+  background: #FF3C00;
+  z-index: -1;
+  border-radius: 3px 3px 0 0;
+}
+
+.contract-form-bg:after {
+  position: absolute;
+  content: "";
+  top: 137px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url(assets/images/resource/square-line.png);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*form title*/
+.contact-form-title {
+  text-align: center;
+  padding: 0 0 72px;
+}
+
+.contact-form-title h4 {
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.contact-form-title p {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0 0;
+}
+
+/*form input*/
+.form_box input {
+  width: 100%;
+  height: 50px;
+  padding-left: 25px;
+  background: transparent;
+  border-radius: 30px;
+  color: #232323;
+  border: 1px solid rgba(35, 35, 35, 0.12);
+  transition: .5s;
+}
+
+.form_box textarea {
+  width: 100%;
+  background: transparent;
+  padding-left: 25px;
+  padding-top: 20px;
+  height: 135px;
+  border: 1px solid rgba(35, 35, 35, 0.12);
+  border-radius: 30px;
+  color: #232323;
+  transition: .5s;
+}
+
+.form_box input::placeholder {
+  color: #6d6d6d;
+}
+
+.form_box input:focus,
+.form_box textarea:focus {
+  border-color: #FF3C00;
+  outline: 0;
+  box-shadow: 0 0 6px rgb(204, 48, 0, 0.6);
+}
+
+/*form button*/
+.quote_button button {
+  padding: 13px 15px;
+  background: #10102E;
+  display: block;
+  color: #fff;
+  border-radius: 30px;
+  width: 100%;
+  font-family: 'Fira Sans';
+  cursor: pointer;
+  text-align: center;
+  transition: .5s;
+}
+
+.quote_button button i {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+  color: #FF3C00;
+}
+
+.quote_button button:hover {
+  color: #fff;
+}
