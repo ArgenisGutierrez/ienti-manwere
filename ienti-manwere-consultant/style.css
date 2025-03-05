@@ -212,7 +212,7 @@ nav.itsoft_menu span {
   right: 0;
   bottom: 0;
   border-radius: 30px;
-  background: #10102E;
+  background: #2C395E;
   transform: scale(0);
   transition: .5s;
 }
@@ -247,7 +247,7 @@ nav.itsoft_menu span {
 }
 
 .style-two .itsoft_menu>ul>li>a {
-  color: #232323;
+  color: #2C395E;
 }
 
 .style-two .header-button {
@@ -827,7 +827,8 @@ nav.itsoft_menu span {
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(assets/images/resource/box-bg.png);
+  background: rgb(204, 32, 38);
+  background: linear-gradient(152deg, rgba(204, 32, 38, 1) 0%, rgba(44, 57, 94, 1) 100%);
   transition: .5s;
   opacity: 0;
   z-index: -1;
@@ -898,7 +899,7 @@ nav.itsoft_menu span {
   font-family: 'Fira Sans';
   border-radius: 22px;
   background-color: #ffffff;
-  color: #232323;
+  color: #2C395E;
   border: 1px solid rgba(35, 35, 35, 0.1);
   display: inline-block;
   margin-top: 11px;
@@ -1399,7 +1400,7 @@ nav.itsoft_menu span {
   right: 0;
   bottom: 0;
   border-radius: 30px;
-  background: #10102E;
+  background: #2C395E;
   transform: scale(0);
   transition: .5s;
 }
@@ -1549,7 +1550,7 @@ p.about-text {
   font-size: 22px;
   font-weight: 500;
   font-family: 'Fira Sans';
-  color: #232323 !important;
+  color: #2C395E !important;
   line-height: 32px;
   font-style: italic;
   opacity: inherit;
@@ -1636,7 +1637,7 @@ p.about-text1 {
 }
 
 .style-three .dreamit-icon-list ul li span {
-  color: #232323;
+  color: #2C395E;
   font-family: 'Fira Sans';
 }
 
@@ -1764,7 +1765,7 @@ p.about-text1 {
   z-index: 1;
   font-size: 22px;
   line-height: 26px;
-  color: #232323;
+  color: #2C395E;
   text-align: center;
 }
 
@@ -1781,7 +1782,7 @@ p.about-text1 {
 .circle-progress-title h4 {
   font-size: 18px;
   line-height: 28px;
-  color: #232323;
+  color: #2C395E;
   font-weight: 500;
   position: relative;
   top: -30px;
@@ -2069,7 +2070,7 @@ p.study-text1 {
 }
 
 .style-two.case-study-area .dreamit-icon-list ul li span {
-  color: #232323;
+  color: #2C395E;
   font-weight: 400;
   font-family: "Fira Sans";
 }
@@ -2422,7 +2423,8 @@ p.study-text1 {
   transition: .5s;
   z-index: -1;
   border-radius: 3px;
-  background: url(assets/images/resource/box-bg4.png);
+  background: rgb(204, 32, 38);
+  background: linear-gradient(41deg, rgba(204, 32, 38, 1) 0%, rgba(44, 57, 94, 1) 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2665,7 +2667,7 @@ p.study-text1 {
 }
 
 .process-title span {
-  color: #232323;
+  color: #2C395E;
   transition: .5s;
 }
 
@@ -3317,7 +3319,7 @@ a.active {
   padding-left: 25px;
   background: transparent;
   border-radius: 30px;
-  color: #232323;
+  color: #2C395E;
   border: 1px solid rgba(35, 35, 35, 0.12);
   transition: .5s;
 }
@@ -3330,7 +3332,7 @@ a.active {
   height: 135px;
   border: 1px solid rgba(35, 35, 35, 0.12);
   border-radius: 30px;
-  color: #232323;
+  color: #2C395E;
   transition: .5s;
 }
 
@@ -3348,7 +3350,7 @@ a.active {
 /*form button*/
 .quote_button button {
   padding: 13px 15px;
-  background: #10102E;
+  background: #2C395E;
   display: block;
   color: #fff;
   border-radius: 30px;
@@ -3527,7 +3529,7 @@ p.slill-text {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #10102E;
+  background: #2C395E;
   border-radius: 30px;
   transform: scale(0);
   transition: .5s;
@@ -3615,7 +3617,7 @@ p.slill-text {
 
 .blog-button a {
   display: inline-block;
-  color: #232323;
+  color: #2C395E;
   transition: .5s;
   font-family: 'Fira Sans';
 }
@@ -4978,7 +4980,7 @@ span.fill {
   font-weight: 500;
   color: #fff;
   margin: 0;
-  background: #FF3A00;
+  background: #CC2026;
   padding: 30px 120px 30px 30px;
   border-radius: 10px;
   position: relative;
@@ -4997,7 +4999,7 @@ span.fill {
   border-radius: 50px;
   line-height: 45px;
   background: #fff;
-  color: #FF3A00;
+  color: #CC2026;
   text-align: center;
   font-size: 20px;
 }
@@ -5009,7 +5011,7 @@ span.fill {
 
 /*about inner all hover*/
 .abouts_titles h3:hover {
-  background: #10102E;
+  background: #2C395E;
 }
 
 
@@ -5055,7 +5057,7 @@ span.fill {
 }
 
 .tabs li a {
-  background-color: #10102E;
+  background-color: #2C395E;
   color: #fff;
   font-family: 'Fira Sans';
   font-weight: 500;
@@ -5104,7 +5106,7 @@ ul.tabs-inner-list li i {
 }
 
 .feture-area .dreamit-icon-list ul li span {
-  color: #232323;
+  color: #2C395E;
   font-weight: 400;
   font-family: "Fira Sans";
 }
@@ -5125,7 +5127,8 @@ ul.tabs-inner-list li i {
 
 /*iiner counter area*/
 .counter-section {
-  background: url(assets/images/resource/counter-bg23.jpg);
+  background: rgb(204, 32, 38);
+  background: linear-gradient(41deg, rgba(204, 32, 38, 1) 0%, rgba(44, 57, 94, 1) 100%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5231,7 +5234,7 @@ ul.tabs-inner-list li i {
   font-size: 51px;
   font-weight: 700;
   text-align: center;
-  color: #232323;
+  color: #2C395E;
 }
 
 .month {
@@ -5431,7 +5434,7 @@ ul.tabs-inner-list li i {
 }
 
 .cda-content-area {
-  background: #10102E;
+  background: #2C395E;
   padding: 20px 0;
 }
 
@@ -5527,7 +5530,7 @@ ul.tabs-inner-list li i {
 }
 
 .widget-items .widget-title h2 {
-  color: #232323;
+  color: #2C395E;
   display: block;
   font-size: 24px;
   font-weight: 600;
@@ -5980,7 +5983,7 @@ label {
   text-align: center;
   background: #efefef;
   display: inline-block;
-  color: #232323;
+  color: #2C395E;
   position: relative;
   z-index: 1;
   margin-left: 15px;
