@@ -1428,6 +1428,16 @@ nav.itsoft_menu span {
   z-index: 1;
 }
 
+.dreamit-about-thumb {
+  height: 100%;
+}
+
+.dreamit-about-thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
 .dreamit-icon-title h4 {
   font-size: 22px;
   font-weight: 500;
@@ -3350,7 +3360,7 @@ a.active {
 /*form button*/
 .quote_button button {
   padding: 13px 15px;
-  background: #2C395E;
+  background: #CC2026;
   display: block;
   color: #fff;
   border-radius: 30px;
@@ -3367,7 +3377,7 @@ a.active {
   margin-right: 5px;
   position: relative;
   top: 2px;
-  color: #CC2026;
+  color: #FFFFFF;
 }
 
 .quote_button button:hover {
@@ -4036,7 +4046,6 @@ a.logo_thumb img {
 
 .row.subscribe {
   position: relative;
-  left: -170px;
 }
 
 .style-two .subscribe-title h1 {
@@ -5356,6 +5365,7 @@ ul.tabs-inner-list li i {
   padding: 25px 15px;
   transition: .5s;
   margin-bottom: 30px;
+  height: 85%;
 }
 
 .feature-content-section .single-content:hover {
@@ -5414,7 +5424,7 @@ ul.tabs-inner-list li i {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: #Ff3C00;
+  background: #CC2026;
   border-radius: 5px;
   display: inline-block;
   margin-right: 25px;
@@ -5428,6 +5438,13 @@ ul.tabs-inner-list li i {
   margin-bottom: 0;
 }
 
+.cda-content-inner h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0;
+}
+
 .cda-content-inner p {
   color: rgba(255, 255, 255, 0.74);
   margin: 10px 0;
@@ -5436,6 +5453,19 @@ ul.tabs-inner-list li i {
 .cda-content-area {
   background: #2C395E;
   padding: 20px 0;
+}
+
+.cda-content-title {
+  padding: 0 45px;
+}
+
+.cda-content-title h3 {
+  font-size: 30px;
+  color: #CC2026;
+}
+
+.cda-content-text {
+  color: #FFFFFF;
 }
 
 .cda-single-content {
@@ -5457,6 +5487,7 @@ ul.tabs-inner-list li i {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
   background: #fff;
   padding: 27px 40px 45px;
+  height: 100%;
 }
 
 /*-------------------
