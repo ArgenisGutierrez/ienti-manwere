@@ -131,8 +131,18 @@ h6 {
 .white h4,
 .white h5,
 .white h6 {
-  color: #fff;
+  color: #FFFFFF;
 }
+
+.blue h1,
+.blue h2,
+.blue h3,
+.blue h4,
+.blue h5,
+.blue h6 {
+  color: #2C395E;
+}
+
 
 .white p {
   color: #fff;
@@ -146,8 +156,6 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-
-li {}
 
 ul {
   margin: 0;

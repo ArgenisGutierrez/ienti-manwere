@@ -3032,8 +3032,8 @@ p.study-text1 {
   font-family: 'Fira Sans';
   font-weight: 400;
   font-size: 18px;
-  color: #fff !important;
-  background-color: rgba(255, 255, 255, 0.050980392156862744);
+  color: #FFFFFF !important;
+  background-color: #2c395e;
   border: 1px solid #626065;
   padding: 14px 20px 14px 59px;
   border-radius: 30px;
@@ -3043,7 +3043,7 @@ p.study-text1 {
 .accordion li p {
   display: none;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #2C395E;
   padding: 25px 0 10px 30px;
   margin: 0;
 }
@@ -3111,7 +3111,6 @@ a.active {
 }
 
 .faq-sectiions {
-  /* background: url(assets/images/resource/faq-bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3128,7 +3127,6 @@ a.active {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(15, 15, 30, 0.9);
 }
 
 .faq-sectiions .dreamit-icon-list ul li i {
