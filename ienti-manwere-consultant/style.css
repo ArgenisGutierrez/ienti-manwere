@@ -59,7 +59,7 @@ Version: 0.1
   top: 4px;
   height: 100%;
   width: 100%;
-  background: url(assets/images/resource/hand.png);
+  background: url(assets/images/resource/hand.webp);
   background-repeat: no-repeat;
 }
 
@@ -401,7 +401,7 @@ nav.itsoft_menu span {
 <!-- Start slider Area Css -->
 <!-- ============================================================== -->*/
 .slider-area {
-  background: url(assets/images/slider/hero-bg.png);
+  background: url(assets/images/slider/hero-bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -411,7 +411,7 @@ nav.itsoft_menu span {
 }
 
 .slider2 {
-  background: url(assets/images/slider/hero-bg2.jpg);
+  background: url(assets/images/slider/hero-bg2.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -801,7 +801,7 @@ nav.itsoft_menu span {
   Itsoft service Area css
 ======================================================**/
 .service-area {
-  background: url(assets/images/resource/feature-bg.jpg);
+  background: url(assets/images/resource/feature-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1062,7 +1062,7 @@ nav.itsoft_menu span {
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(assets/images/resource/box-bg2.png);
+  background: url(assets/images/resource/box-bg2.webp);
   transition: .5s;
   opacity: 0;
   z-index: -1;
@@ -1223,7 +1223,7 @@ nav.itsoft_menu span {
 
 /**Service style three**/
 .style-three.service-area {
-  background: url(assets/images/resource/service-bg2.jpg);
+  background: url(assets/images/resource/service-bg2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1255,7 +1255,7 @@ nav.itsoft_menu span {
 }
 
 .style-three .dreamit-service-box:before {
-  background: url(assets/images/resource/box-bg3.png);
+  background: url(assets/images/resource/box-bg3.webp);
   border-radius: 3px;
 }
 
@@ -1414,7 +1414,7 @@ nav.itsoft_menu span {
   Itsoft about Area css
 ======================================================**/
 .about-area {
-  background: url(assets/images/about/about-bg.png);
+  background: url(assets/images/about/about-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   padding: 100px 0 80px;
@@ -1549,7 +1549,7 @@ nav.itsoft_menu span {
 /***About style two***/
 
 .style-two.about-area {
-  background: url(assets/images/about/ceo-bg.png);
+  background: url(assets/images/about/ceo-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1816,7 +1816,7 @@ p.about-text1 {
 /*style three upper1*/
 .upper1.style-three.about-area {
   padding: 100px 0 115px;
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
 }
 
 .upper1.style-three.about-area .dreamit-about-thumb {
@@ -1893,7 +1893,7 @@ p.about-text1 {
   Itsoft case study area css
 ======================================================***/
 .case-study-area {
-  background: url(assets/images/resource/service-bg.png);
+  background: url(assets/images/resource/service-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2052,7 +2052,7 @@ p.about-text1 {
 
 /**case study style two**/
 .style-two.case-study-area {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2279,7 +2279,7 @@ p.study-text1 {
   z-index: -1;
   bottom: 0;
   left: 0;
-  background: url(assets/images/resource/port.png);
+  background: url(assets/images/resource/port.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2387,7 +2387,7 @@ p.study-text1 {
   Itsoft Testimonial Area Css
 ======================================================***/
 .testimonial-area {
-  background: url(assets/images/resource/testimonial-bg.png);
+  background: url(assets/images/resource/testimonial-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2418,7 +2418,7 @@ p.study-text1 {
   width: 100%;
   transition: .5s;
   z-index: -1;
-  background: url(assets/images/resource/earth.png);
+  background: url(assets/images/resource/earth.webp);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -2453,7 +2453,7 @@ p.study-text1 {
   position: absolute;
   bottom: 5px;
   right: -10px;
-  background: url(assets/images/resource/quote1.png);
+  background: url(assets/images/resource/quote1.webp);
   background-repeat: no-repeat;
   background-position: center center;
   width: 31px;
@@ -2573,7 +2573,7 @@ p.study-text1 {
   Itsoft Process Area Css
 ======================================================***/
 .process-area {
-  background: url(assets/images/resource/work-process-bg.png);
+  background: url(assets/images/resource/work-process-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2618,7 +2618,7 @@ p.study-text1 {
   bottom: 0;
   width: 0%;
   height: 0%;
-  background: url(assets/images/resource/bx-bg.png);
+  background: url(assets/images/resource/bx-bg.webp);
   transition: .7s;
   border-radius: 3px;
   z-index: -1;
@@ -2643,7 +2643,7 @@ p.study-text1 {
   top: -15px;
   width: 60px;
   height: 55px;
-  background: url(assets/images/resource/process-i1.png);
+  background: url(assets/images/resource/process-i1.webp);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2658,7 +2658,7 @@ p.study-text1 {
   top: -15px;
   width: 60px;
   height: 55px;
-  background: url(assets/images/resource/process-i2.png);
+  background: url(assets/images/resource/process-i2.webp);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -2732,7 +2732,7 @@ p.study-text1 {
 
 /**Process area style two**/
 .style-two.process-area {
-  background: url(assets/images/resource/process-bg.png);
+  background: url(assets/images/resource/process-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2748,7 +2748,7 @@ p.study-text1 {
 
 .style-two .row.process-bg {
   padding: 70px 0 17px;
-  background: url(assets/images/resource/process-bg2.jpg);
+  background: url(assets/images/resource/process-bg2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2791,7 +2791,7 @@ p.study-text1 {
   margin: auto;
   height: 100%;
   width: 97%;
-  background: url(assets/images/resource/line-shape.png);
+  background: url(assets/images/resource/line-shape.webp);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2836,7 +2836,7 @@ p.study-text1 {
   Itsoft Team Area Css
 ======================================================***/
 .team_area {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2977,7 +2977,7 @@ p.study-text1 {
     <--Start Itsoft Faq Area Css-->
 ======================================================***/
 .faq-area {
-  background: url(assets/images/resource/faq-bg.jpg);
+  background: url(assets/images/resource/faq-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3100,7 +3100,7 @@ a.active {
   top: 0px;
   width: 100%;
   height: 100%;
-  background: url(assets/images/resource/question.png);
+  background: url(assets/images/resource/question.webp);
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -3171,7 +3171,7 @@ a.active {
 /*style two*/
 .upper1.brand-section {
   padding: 20px 0 30px;
-  background: url(assets/images/resource/counter-bg23.jpg);
+  background: url(assets/images/resource/counter-bg23.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3182,7 +3182,7 @@ a.active {
     <--Start call do section Css-->
 ==================================================***/
 .call-do-action-section {
-  background: linear-gradient(rgba(17, 26, 58, 0.75), rgba(17, 26, 58, 0.75)), transparent url(assets/images/resource/cda1.jpg) no-repeat center/cover;
+  background: linear-gradient(rgba(17, 26, 58, 0.75), rgba(17, 26, 58, 0.75)), transparent url(assets/images/resource/cda1.webp) no-repeat center/cover;
   padding: 100px 0 150px;
 }
 
@@ -3295,7 +3295,7 @@ a.active {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url(assets/images/resource/square-line.png);
+  background: url(assets/images/resource/square-line.webp);
   z-index: -1;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3421,7 +3421,7 @@ a.active {
   Itsoft Brand Area Css
 ======================================================***/
 .skill-area {
-  background: url(assets/images/resource/skill-bg.png);
+  background: url(assets/images/resource/skill-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3487,7 +3487,7 @@ p.slill-text {
   Itsoft Blog Area Css
 ======================================================***/
 .blog-area {
-  background: url(assets/images/resource/blog-bg.png);
+  background: url(assets/images/resource/blog-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 94px 0 70px;
@@ -3582,7 +3582,7 @@ p.slill-text {
   top: 7px;
   width: 55%;
   height: 55%;
-  background: url(assets/images/resource/date.png);
+  background: url(assets/images/resource/date.webp);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -3694,7 +3694,7 @@ p.slill-text {
   Itsoft footer Area Css
 ======================================================***/
 .footer-middle {
-  background: url(assets/images/resource/footer-bg.png);
+  background: url(assets/images/resource/footer-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 75px 0 0px;
@@ -3898,7 +3898,7 @@ a.logo_thumb img {
 
 /**footer area style two**/
 .style-two.footer-middle {
-  background: url(assets/images/resource/footer-bg.jpg);
+  background: url(assets/images/resource/footer-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 105px 0 0px;
@@ -3963,7 +3963,7 @@ a.logo_thumb img {
   Itsoft Subscribe Area Css
 ======================================================***/
 .row.subscribe-area {
-  background: url(assets/images/resource/subscribe-bg.png);
+  background: url(assets/images/resource/subscribe-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 48px 35px 40px;
@@ -4029,7 +4029,7 @@ a.logo_thumb img {
 /*Subscribe area two */
 
 .style-two.subscribe-area {
-  background: url(assets/images/resource/call-bg.png);
+  background: url(assets/images/resource/call-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4908,7 +4908,7 @@ span.fill {
 ==================================================-*/
 
 .breadcumb-area {
-  background: linear-gradient(rgba(19, 19, 35, 0.6), rgba(0, 0, 0, 0.5)), url(assets/images/resource/braitcam.png) no-repeat center/cover;
+  background: linear-gradient(rgba(19, 19, 35, 0.6), rgba(0, 0, 0, 0.5)), url(assets/images/resource/braitcam.webp) no-repeat center/cover;
   height: 520px;
   position: relative;
 }
@@ -5026,7 +5026,7 @@ span.fill {
 --< Itsoft feture-area Css -->
 ======================================================*/
 .feture-area {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5204,7 +5204,7 @@ ul.tabs-inner-list li i {
 --------------------*/
 .pricing-section {
   padding: 100px 0 80px;
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -5300,7 +5300,7 @@ ul.tabs-inner-list li i {
 ============== Start Web Development section at inner page
 ------------------*/
 .web-dev-section {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5338,7 +5338,7 @@ ul.tabs-inner-list li i {
 ============== Start Web Development section at inner page
 ------------------*/
 .feature-content-section {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5374,7 +5374,7 @@ ul.tabs-inner-list li i {
 ============== Start Contact  us Section Style
 ------------------*/
 .contact-us {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5891,7 +5891,7 @@ label {
 ============== Itsoft Start Case Study Details
 ------------------*/
 .case-study-details {
-  background: url(assets/images/resource/why-choose-bg.png);
+  background: url(assets/images/resource/why-choose-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -6054,7 +6054,7 @@ label {
   -webkit-transition: all 0.4s ease-in 0.8s;
   -o-transition: all 0.4s ease-in 0.8s;
   transition: all 0.4s ease-in 0.8s;
-  cursor: url(../images/cross-out.png), pointer;
+  cursor: url(../images/cross-out.webp), pointer;
 }
 
 .xs-sidebar-group .widget-heading {
