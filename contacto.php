@@ -108,6 +108,7 @@
                   <li><a href="soporte.html"> Soporte</a></li>
                   <li><a href="capacitacion.html"> Capacitación</a></li>
                   <li><a href="acompanamiento.html"> Acompañamiento</a></li>
+                  <li><a href="https://ienti.com.mx/base-conocimientos/view/login.php"> Base de Conocimientos</a></li>
                 </ul>
               </li>
               <li><a href="contacto.php">Contacto</a></li>
@@ -155,6 +156,7 @@
               <li><a href="soporte.html"> Soporte</a></li>
               <li><a href="capacitacion.html"> Capacitación</a></li>
               <li><a href="acompanamiento.html"> Acompañamiento</a></li>
+              <li><a href="https://ienti.com.mx/base-conocimientos/view/login.php"> Base de Conocimientos</a></li>
             </ul>
           </li>
           <li><a href="contacto.php">Contacto</a></li>
@@ -209,25 +211,25 @@
             </div>
             <?php
             if (isset($_GET["status"])) {
-              if ($_GET["status"] == "success") {
-            ?>
+                if ($_GET["status"] == "success") {
+                    ?>
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                   <strong>¡Éxito!</strong> Tu correo fue enviado. Nos pondremos en contacto contigo lo más pronto posible.
                   <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-              <?php
-              } elseif ($_GET["status"] == "error") {
-              ?>
+                    <?php
+                } elseif ($_GET["status"] == "error") {
+                    ?>
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                   <strong>Error!</strong> Tu mensaje no se pudo enviar. Por favor, inténtalo de nuevo más tarde.
                   <button type="button" class="close" data-dismiss="alert" aria-label="Cerrar">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-            <?php
-              }
+                    <?php
+                }
             }
             ?>
             <form id="contact_form" action="assets/php/mail.php" method="POST">
@@ -362,7 +364,7 @@
             <h4 class="widget-title">Empresa</h4>
             <div class="menu-quick-link-content">
               <ul class="footer-menu">
-                <li><a href="https://ienti.com.mx/AssetWise/view/principal.php"> Base de Conocimiento </a></li>
+                <li><a href="#"> Base de Conocimiento </a></li>
                 <li><a href="https://ienti.com.mx:2096/"> Web Mail </a></li>
                 <li><a href="aviso-privacidad.html"> Aviso de Privacidad </a></li>
               </ul>
